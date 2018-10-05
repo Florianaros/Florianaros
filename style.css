@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('fonts/Capture_it-webfont.eot');
+    src: url('fonts/Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Capture_it-webfont.woff2') format('woff2'),
+         url('fonts/Capture_it-webfont.woff') format('woff'),
+         url('fonts/Capture_it-webfont.ttf') format('truetype'),
+         url('fonts/Capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'philosopherregular';
+    src: url('fonts/Philosopher-Regular-webfont.eot');
+    src: url('fonts/Philosopher-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Philosopher-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Philosopher-Regular-webfont.woff') format('woff'),
+         url('fonts/Philosopher-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Philosopher-Regular-webfont.svg#philosopherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	font-family: roboto;
+    background-color:#ffffff;
+}
+
+p
+{
+	font-size: 1.4em;
+	font-family: roboto; 
+}
+
+ul
+{
+	margin-left: 50px;
+	font-size: 1em;
+	font-family: roboto; 
+}
+ol
+{
+	margin-left: 50px;
+	font-size: 1em;
+	font-family: roboto; 
+}
+h1
+{
+	color: #ffffff;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 4em;
+	text-transform: uppercase;
+	background: linear-gradient(150deg,#1CB5E0, #2f80ed);
+	border-radius: 3px;
+	text-shadow: 1px 1px 3px #636363;
+	box-shadow: -2px 2px 2px #B8B9BA;
+}
+h2
+{
+	font-size: 1.3em;
+	font-family: Roboto;
+	width: 19%;
+	padding: 3px;
+	border-radius: 4px;
+	margin-left: 10px;
+	background-color: #eaeaea;
+	text-align: center;
+	box-shadow: 1px 1px 3px #c3c3c3bf;
+	color: #484848;
+}
+h3
+{
+	font-size: 1em;
+	font-family: Roboto;
+	background: linear-gradient(150deg,#1CB5E0, #2f80ed);
+	color: white;
+	border-radius: 3px;
+	text-align: center;
+	margin: auto;
+}
+strong
+{
+	color: #176393;
+}
+
+a
+{
+	color: #52BDF2;
+}
+a:hover
+{
+	color: #47C6ED;
+}
+.flottant_pokeball
+{
+	float: right;
+}
+.descriptif_pokeball
+{
+	clear: both;
+	text-align: right;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.flottant_moi
+{
+	float: right;
+	border: 1em #259ce7 inset;
+	border-radius: 3px;
+}
+.para_1
+{
+	text-align: justify;
+	margin: 20px;
+	font-style: italic;
+}
+
+.para_2
+{
+	text-transform: uppercase;
+	clear: both;
+}
+
+.puce_1
+{
+	border: 5px #44494A dashed;
+	font-size: 1.4em;
+	width: 50%;
+	margin: auto;
+}
+
+div ul {
+	margin-left: 0px;
+}

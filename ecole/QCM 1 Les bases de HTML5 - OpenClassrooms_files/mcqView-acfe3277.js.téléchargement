@@ -1,0 +1,2 @@
+webpackJsonp([18],{1651:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}var d=n(u(17)),f=n(u(1652));d.default.launch(f.default)},1652:function(e,t,u){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=(function(e){return e&&e.__esModule?e:{default:e}})(u(363));t.default={init:function(){(0,n.default)(document.getElementById("MCQ_VIEW_APP"))}}}},[1651]);
+//# sourceMappingURL=mcqView-acfe3277.js.map
