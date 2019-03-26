@@ -26,7 +26,7 @@
 body
 {
 	font-family: roboto;
-    background-color:#ffffff;
+    background-color:#FAF7F2;
 }
 
 p
@@ -37,19 +37,19 @@ p
 
 ul
 {
-	margin-left: 50px;
-	font-size: 1em;
-	font-family: roboto; 
+	font-size: 1.2em;
+	font-family: roboto;
+
 }
 ol
 {
-	margin-left: 50px;
-	font-size: 1em;
+	margin-left: 10px;
+	font-size: 1.2em;
 	font-family: roboto; 
 }
 h1
 {
-	color: #ffffff;
+	color: #FAF7F2;
 	text-align: center;
 	font-family: Roboto;
 	font-size: 4em;
@@ -58,15 +58,16 @@ h1
 	border-radius: 3px;
 	text-shadow: 1px 1px 3px #636363;
 	box-shadow: -2px 2px 2px #B8B9BA;
+
 }
 h2
 {
 	font-size: 1.3em;
 	font-family: Roboto;
-	width: 19%;
+	width: 170px;
 	padding: 3px;
 	border-radius: 4px;
-	margin-left: 10px;
+	margin: auto;
 	background-color: #eaeaea;
 	text-align: center;
 	box-shadow: 1px 1px 3px #c3c3c3bf;
@@ -95,6 +96,11 @@ a:hover
 {
 	color: #47C6ED;
 }
+.conteneur2
+{
+	display: flex;
+	flex-wrap: wrap;
+}
 .flottant_pokeball
 {
 	float: right;
@@ -105,25 +111,33 @@ a:hover
 	text-align: right;
 	text-decoration: underline;
 	font-weight: bold;
-}
 
-.flottant_moi
+}
+.boitepokeball
 {
-	float: right;
-	border: 1em #259ce7 inset;
-	border-radius: 3px;
+	width: 50%;
+
+}
+.imgport
+{
+    width: 25%;
+	height:68.75%;
+	padding-top: 25px;
+	padding-left: 70px;	
 }
 .para_1
 {
 	text-align: justify;
 	margin: 20px;
 	font-style: italic;
+	padding-bottom: 25px;
 }
 
 .para_2
 {
 	text-transform: uppercase;
 	clear: both;
+	color:#FAF7F2;
 }
 
 .puce_1
@@ -134,6 +148,86 @@ a:hover
 	margin: auto;
 }
 
-div ul {
-	margin-left: 0px;
+
+.flottant_icone_anglais
+{
+	float:right;
+	width: 35px;
+	height: 35px;
+}
+.flottant_icone_france
+{
+	float: right;
+	width: 38px;
+	height: 38px;
+}
+.conteneur
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bloc1
+{
+ width: 50%;
+ padding-bottom: 25px;
+}
+
+.bloc2
+{
+	width: 50%;
+ padding-bottom: 25px;
+
+
+}
+.bloc3
+{
+	width: 50%;
+ padding-bottom: 25px;
+
+	
+}
+.bloc4
+{
+	width: 100%;
+ padding-bottom: 25px;
+ padding-right: 75px;
+	
+}
+.bloc5
+{
+	width: 50%;
+ 
+
+	
+}
+.liste1
+{
+	
+	width: 50%;
+	margin: auto;
+}
+.liste2
+{
+	
+	width: 75%;
+	margin: auto;
+}
+.liste3
+{
+	
+	width: 51%;
+	margin: auto;
+}
+.liste4
+{
+	
+	width: 12%;
+	margin: auto;
+}
+.liste5
+{
+	
+	width: 73%;
+	margin: auto;
 }

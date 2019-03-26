@@ -126,9 +126,11 @@ a
 .cla1
 {
 	border: 1em #259ce7 solid;
-	border-radius: 3px;
+	border-radius: 10px;
 	margin: auto;
 	background-color: #259ce7;
+	padding-right: 200px;
+	padding-left: 200px;
 }
 
 .cla1 img{
@@ -139,7 +141,7 @@ a
 .cla2
 {
 	border: 1em #259ce7 solid;
-	border-radius: 3px;
+	border-radius: 10px;
 	margin: auto;
 	background-color: #259ce7;
 }
@@ -152,7 +154,7 @@ a
 .cla3
 {
 	border: 1em #259ce7 solid;
-	border-radius: 3px;
+	border-radius: 10px;
 	margin: auto;
 	background-color: #259ce7;
 }
@@ -247,5 +249,6 @@ img{
 }
 
 .retour a{
-	color:red;
+	color:#6CA7DB;
+	text-decoration: none;
 }
